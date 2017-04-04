@@ -1,0 +1,525 @@
+#boldnbig {
+  font-weigth: bold;
+  font-size: 36px;
+  margin: 2% 0; }
+
+#pnkfont {
+  color: deeppink;
+  padding: 2%;
+  text-align: center;
+  cursor: pointer; }
+
+#grntxt {
+  color: green;
+  font-weight: bold;
+  text-align: center; }
+
+#striketxt {
+  color: lightgrey;
+  font-weigth: none; }
+
+#social {
+  padding: 10px;
+  color: lightgrey; }
+
+#social:hover {
+  color: deeppink; }
+
+.end {
+  font-size: 10px;
+  color: deeppink;
+  float: left; }
+
+#subs {
+  font-weight: bold;
+  font-size: 12px;
+  color: white; }
+
+#new {
+  position: absolute;
+  z-index: 10;
+  top: -3%;
+  background-color: green;
+  color: white;
+  padding: 5px; }
+
+#marg {
+  margin: 10px;
+  cursor: pointer; }
+
+#cart {
+  padding-left: 10%;
+  color: blue; }
+
+#cart:hover {
+  color: deeppink; }
+
+#clk {
+  border: 0;
+  background-color: #f7f9fb; }
+
+placeholder {
+  color: pink; }
+
+#collection {
+  font-size: 40px;
+  font-weight: bold; }
+
+#year {
+  font-size: 25px; }
+
+#read:hover {
+  color: green; }
+
+#wishlist {
+  visibility: hidden; }
+  #wishlist b {
+    color: blue;
+    padding-left: 2%;
+    cursor: pointer; }
+    #wishlist b:hover {
+      color: deeppink; }
+  #wishlist i {
+    color: deeppink;
+    opacity: 0.7; }
+    #wishlist i:hover {
+      opacity: 1; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  margin-top: -2%; }
+
+body {
+  margin: 0px;
+  padding: 0% 6% 0% 6%;
+  font-family: "PT Sans",sans-serif; }
+
+.row {
+  content: "";
+  clear: both;
+  display: block; }
+
+[class*="col-"] {
+  paddin: 0px;
+  float: left; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+#mainlogo img {
+  background-color: deeppink;
+  width: 60%; }
+
+#topmenu {
+  text-align: center;
+  margin-bottom: 5%; }
+  #topmenu li {
+    display: inline-block;
+    color: deeppink; }
+  #topmenu a {
+    padding: 20px;
+    text-decoration: none;
+    color: deeppink; }
+  #topmenu button {
+    width: 10%;
+    margin-left: -6px;
+    background-color: deeppink; }
+
+#navbar {
+  text-align: center;
+  background-color: #f7f9fb;
+  position: relative;
+  z-index: 999;
+  width: 100%; }
+  #navbar li, #navbar a {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration-style: none;
+    color: deeppink;
+    text-align: center;
+    padding: 12px; }
+
+#navbar a {
+  border-right: 1px solid #eeeeee;
+  text-decoration: none;
+  color: #615c69; }
+
+#navbar a:hover {
+  color: darkgrey; }
+
+#hidden {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  width: 70%;
+  background-color: whitesmoke; }
+
+li:hover #hidden {
+  display: block;
+  overflow: hidden; }
+
+#hidden a {
+  padding: 0px;
+  color: grey; }
+
+#slider {
+  max-height: 100%;
+  height: auto; }
+
+#slider-container {
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10; }
+
+.navbar-fixed {
+  top: 0;
+  left: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%; }
+
+#nav_bar {
+  margin-bottom: -15px;
+  border-radius: 0px;
+  margin-top: -16px; }
+
+img {
+  width: 100%;
+  margin: 0px; }
+
+.slide-content {
+  position: relative;
+  max-width: 100%; }
+
+.btn-floating {
+  width: 10%;
+  height: 25%;
+  line-height: 100px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  background-image: url("images/slide1_image.jpg");
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  padding: 0px;
+  border: 4px solid grey;
+  border-radius: 150%;
+  cursor: pointer;
+  font-size: 24px; }
+  .btn-floating h1 {
+    position: absolute;
+    right: 40%; }
+  .btn-floating img {
+    height: 100%; }
+  .btn-floating img:hover {
+    transform: scale(1.2); }
+
+.ontext {
+  position: relative;
+  overflow: hidden;
+  padding-top: 10px; }
+
+.ontext img {
+  overflow: hidden;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 30s;
+  transition-duration: 30s;
+  padding: 0px; }
+
+.ontext img:hover {
+  transform: scale(2);
+  -webkit-transform: scale(2); }
+
+#showcase {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: white; }
+
+#pic-container {
+  margin-top: 20px; }
+
+.btn {
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 9px 20px;
+  border: none !important;
+  background: #2dcc70 !important;
+  cursor: pointer; }
+
+.btn:hover {
+  background: deeppink !important; }
+
+#mid {
+  padding-top: 5%; }
+
+#img_1 {
+  background-color: #f7f9fb;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  -webkit-user-select: none; }
+
+#img_2 {
+  position: absolute;
+  background-color: #f7f9fb;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  opacity: 1;
+  padding: 20px; }
+
+#img_1:hover {
+  opacity: 0; }
+
+#product-img {
+  position: relative;
+  border: 1px solid lightgrey;
+  overflow: hidden;
+  display: block; }
+
+#product-img:hover #wishlist {
+  visibility: visible; }
+
+#banner {
+  margin-top: 50px; }
+
+footer {
+  margin-top: 15px; }
+  footer h3 {
+    color: deeppink;
+    text-align: center; }
+  footer a {
+    color: blue; }
+  footer p {
+    color: deeppink; }
+  footer ul {
+    list-style-type: none; }
+
+#nodec {
+  text-decoration: none; }
+
+#butn {
+  background-color: deepink; }
+
+.bottm {
+  position: relative;
+  overflow: hidden; }
+
+.bottm img {
+  overflow: hidden;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  opacity: 1; }
+
+#btmtxt {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  padding-left: 10%;
+  color: white;
+  background-color: deeppink;
+  opacity: 0; }
+  #btmtxt h5 {
+    color: #0cf715; }
+  #btmtxt h3 {
+    font-weight: bold;
+    font-size: 30px; }
+
+#lowbtn {
+  background-color: deeppink;
+  height: 36px;
+  border: 0px;
+  margin-left: -1%; }
+
+#lowbtn:hover {
+  background-color: green; }
+
+.bottm:hover img {
+  opacity: 0.3;
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+.bottm:hover #btmtxt {
+  opacity: 0.5; }
+
+#textbox {
+  padding: 5px;
+  width: 60%; }
+
+#media {
+  display: none; }
+
+#hi dwn li, #hi ul {
+  list-style-type: none; }
+#hi a {
+  text-decoration: none; }
+
+#hide {
+  display: none;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  background-color: white; }
+
+#hide a {
+  padding: 0px;
+  color: grey; }
+
+#hid {
+  height: 470px;
+  overflow: hidden; }
+
+@media only screen and (max-width: 950px) {
+  [class*="col-"] {
+    width: 100%; }
+
+  #nav_bar {
+    display: none; }
+
+  #media {
+    display: block; }
+
+  #new {
+    position: absolute;
+    z-index: 10;
+    top: -3%;
+    background-color: #8bc34a;
+    padding: 3px; }
+
+  #hi img {
+    display: none; }
+
+  #img_1 {
+    width: 50%;
+    float: left; }
+
+  #img_2 {
+    width: 50%;
+    float: left; }
+
+  #midbtn {
+    display: none; }
+
+  footer h3 {
+    color: deeppink;
+    text-align: left; }
+
+  #collection {
+    font-size: 26px;
+    font-weight: bold; }
+
+  #hid {
+    height: 100%; }
+
+  #sml {
+    font-size: 14px; } }
+@media only screen and (max-width: 600px) {
+  [class*="col-"] {
+    width: 100%; }
+
+  #new {
+    position: absolute;
+    z-index: 10;
+    top: -6%;
+    background-color: #8bc34a;
+    padding: 0px; }
+
+  #year {
+    font-size: 20px; }
+
+  #collection {
+    font-size: 20px;
+    margin: 2%;
+    font-weight: bold; }
+
+  #hid {
+    height: 100%; }
+
+  #sml {
+    font-size: 12px; } }
+@media only screen and (max-width: 400px) {
+  [class*="col-"] {
+    width: 100%; }
+
+  #new {
+    position: absolute;
+    z-index: 10;
+    top: -6%;
+    background-color: #8bc34a;
+    padding: 0px; }
+
+  #year {
+    font-size: 12px; }
+
+  #collection {
+    font-size: 10px;
+    font-weight: bold; }
+
+  #mar0 {
+    margin: 0px 0; }
+
+  #mar2 {
+    margin: 2%; }
+
+  #btmtxt {
+    padding-left: 4%; }
+    #btmtxt h3 {
+      font-size: 20px;
+      margin: 0; }
+
+  #sml {
+    font-size: 9px; } }
+
+/*# sourceMappingURL=furnitures.css.map */
